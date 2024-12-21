@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ping -c1 localhost
-echo "Exit status: $?" >> /tmp/ping.log
+/sbin/ping -c1 localhost
+date +"%Y-%m-%d %H:%M:%S Exit status: $?" >> /tmp/ping.log
